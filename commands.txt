@@ -1,0 +1,5 @@
+*PERSON DETECTION*
+python person_image_detect.py --weights runs/train/exp_person/weights/best.pt --source test_images/classroom.png
+
+*FACE DETECTION*
+python face_image_detect.py --weights runs/train/exp_face/weights/best.pt --source test_images/person_class.png
